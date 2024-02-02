@@ -1,0 +1,7 @@
+kw1: SELECT `id`, `tytul`, `tresc` FROM `ogloszenie` WHERE `kategoria` = 1; 
+
+kw2: SELECT `telefon` FROM `ogloszenie` JOIN `uzytkownik` WHERE `ogloszenie`.`uzytkownik_id` = `uzytkownik`.`id` AND `ogloszenie`.`id` = 1;
+
+kw3: CREATE USER moderator@localhost IDENTIFIED BY 'qwerty';
+
+kw4: GRANT DELETE, SELECT ON ogloszenia.* TO 'moderator'@'localhost';

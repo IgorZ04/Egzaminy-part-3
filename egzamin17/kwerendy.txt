@@ -1,0 +1,7 @@
+kw1:SELECT * FROM `pogoda` WHERE `miasta_id` = 1 ORDER BY `data_prognozy`;
+
+kw2:SELECT `id`, `data_prognozy` FROM `pogoda` WHERE `opady` > 30;
+
+kw3:SELECT `data_prognozy`, `temperatura_noc` FROM `pogoda` JOIN `miasta` WHERE `pogoda`.`miasta_id` = `miasta`.`id` AND `temperatura_noc` < 6;
+
+kw4:ALTER TABLE `miasta` ADD `wojewodztwo` TEXT NOT NULL AFTER `nazwa`; 

@@ -1,0 +1,95 @@
+header{
+
+    display: flex;
+    flex-flow: row;
+
+}
+
+#header_left{
+
+    background-color: #4b0082;
+    color: white;
+    text-align: center;
+    width: 75%;
+    height: 100px;
+    font-size: 150%;
+
+}
+
+#logo{
+
+    width: 25%;
+    height: 100px;
+
+}
+
+#second{
+
+    display: flex;
+    flex-flow: row;
+
+}
+
+#sec_left{
+
+    width: 45%;
+    height: 300px;
+    
+}
+
+#sec_left{
+
+    width: 55%;
+    height: 300px;
+    text-align: center;
+
+}
+
+main{
+
+    background-color: #4B0082;
+    padding: 60px;
+    
+}
+
+
+footer{
+
+    background-color: #4B0082;
+    color: white;
+    padding: 40px;
+
+}
+
+body{
+
+    font-family: Helvetica;
+    background-color: #FFE4B5;
+    
+}
+
+form{
+
+    margin: 40px;
+
+
+}
+
+table{
+
+    color: white;
+    text-align: center;
+    width: 90%;
+    border: 1px dashed yellow;
+    
+
+}
+
+tr:hover{
+
+    background-color: #9370DB;
+    color: yellow;
+
+}
+
+

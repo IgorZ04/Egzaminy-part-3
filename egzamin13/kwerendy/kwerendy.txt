@@ -1,0 +1,7 @@
+kw1: SELECT `gatunek`, `obraz` FROM `zwierzeta` WHERE `Gromady_id` = 4;
+
+kw2: SELECT `id`, `Gromady_id`, `gatunek`, `wystepowanie` FROM `zwierzeta` WHERE `Gromady_id` = 4 OR `Gromady_id` = 5;
+
+kw3:SELECT `gatunek`, `odzywianie`.`id`, `rodzaj` FROM `zwierzeta` JOIN `odzywianie` WHERE `zwierzeta`.`Odzywianie_id` = `odzywianie`.`id`;
+
+kw4: ALTER TABLE `odzywianie` DROP `informacja`;
